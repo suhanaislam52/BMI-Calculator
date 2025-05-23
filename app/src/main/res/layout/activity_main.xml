@@ -102,6 +102,8 @@
         android:textColor="color/navy"
         android:text="RESULT"/>
 
+
+    
     <!-- Your actual UI elements go here -->
 
 </LinearLayout>
