@@ -1,5 +1,6 @@
 # BMI Calculator
-An intuitive Android application designed to calculate the Body Mass Index (BMI) based on user-provided height and weight inputs. The app categorizes the BMI result into standard health categories, aiding users in understanding their health status.
+An intuitive native Android application built using Kotlin that calculates the Body Mass Index (BMI) based on user-provided height and weight inputs. The app categorizes the BMI result into standard health categories, aiding users in understanding their health status.
+
 
 ## 🖼️ Preview
 
