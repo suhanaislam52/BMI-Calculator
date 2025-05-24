@@ -11,11 +11,9 @@ Here’s a look at the app interface:
 
 ## 🎥 Live Demo
 
-
 <a href="https://github.com/suhanaislam52/BMI-Calculator/raw/main/screenshots/Screen_recording_20250524_234635.mp4">
-  <img src="https://github.com/suhanaislam52/BMI-Calculator/raw/main/screenshots/demo_thumbnail_with_play.png" alt="Watch the demo" width="300"/>
+  <img src="https://github.com/suhanaislam52/BMI-Calculator/raw/main/screenshots/demo_thumbnail_with_play.PNG" alt="Watch the demo" width="300" />
 </a>
-
 
 > Click the image to view or download the demo video.
 
