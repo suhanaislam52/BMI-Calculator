@@ -4,8 +4,6 @@ This is a clean and intuitive native Android application developed in Kotlin tha
 The app features a simple and responsive user interface, real-time BMI calculations, and input validation for smooth user experience. It is ideal for anyone interested in monitoring their health using a lightweight and efficient mobile tool built with modern Android development practices.
 
 
-
-
 ## 📱 Preview
 
 Here’s a look at the app interface:
