@@ -4,20 +4,51 @@ package com.example.bmicalculator.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.bmicalculator.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   private final LinearLayout rootView;
 
-  private ActivityMainBinding(@NonNull LinearLayout rootView) {
+  @NonNull
+  public final Button calculateBtn;
+
+  @NonNull
+  public final EditText heightEdit;
+
+  @NonNull
+  public final TextView heightText;
+
+  @NonNull
+  public final TextView resultText;
+
+  @NonNull
+  public final TextView weighText;
+
+  @NonNull
+  public final EditText weightEdit;
+
+  private ActivityMainBinding(@NonNull LinearLayout rootView, @NonNull Button calculateBtn,
+      @NonNull EditText heightEdit, @NonNull TextView heightText, @NonNull TextView resultText,
+      @NonNull TextView weighText, @NonNull EditText weightEdit) {
     this.rootView = rootView;
+    this.calculateBtn = calculateBtn;
+    this.heightEdit = heightEdit;
+    this.heightText = heightText;
+    this.resultText = resultText;
+    this.weighText = weighText;
+    this.weightEdit = weightEdit;
   }
 
   @Override
@@ -43,10 +74,50 @@ public final class ActivityMainBinding implements ViewBinding {
 
   @NonNull
   public static ActivityMainBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.calculateBtn;
+      Button calculateBtn = ViewBindings.findChildViewById(rootView, id);
+      if (calculateBtn == null) {
+        break missingId;
+      }
 
-    return new ActivityMainBinding((LinearLayout) rootView);
+      id = R.id.heightEdit;
+      EditText heightEdit = ViewBindings.findChildViewById(rootView, id);
+      if (heightEdit == null) {
+        break missingId;
+      }
+
+      id = R.id.heightText;
+      TextView heightText = ViewBindings.findChildViewById(rootView, id);
+      if (heightText == null) {
+        break missingId;
+      }
+
+      id = R.id.resultText;
+      TextView resultText = ViewBindings.findChildViewById(rootView, id);
+      if (resultText == null) {
+        break missingId;
+      }
+
+      id = R.id.weighText;
+      TextView weighText = ViewBindings.findChildViewById(rootView, id);
+      if (weighText == null) {
+        break missingId;
+      }
+
+      id = R.id.weightEdit;
+      EditText weightEdit = ViewBindings.findChildViewById(rootView, id);
+      if (weightEdit == null) {
+        break missingId;
+      }
+
+      return new ActivityMainBinding((LinearLayout) rootView, calculateBtn, heightEdit, heightText,
+          resultText, weighText, weightEdit);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

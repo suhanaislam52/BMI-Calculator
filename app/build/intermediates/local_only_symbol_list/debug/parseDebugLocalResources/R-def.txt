@@ -11,6 +11,12 @@ color white
 drawable bmibkg
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+id calculateBtn
+id heightEdit
+id heightText
+id resultText
+id weighText
+id weightEdit
 layout activity_main
 mipmap ic_launcher
 mipmap ic_launcher_round
