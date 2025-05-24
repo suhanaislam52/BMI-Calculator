@@ -77,12 +77,7 @@ git clone https://github.com/suhanaislam52/BMI-Calculator.git
 - View Results: Your BMI value and corresponding health category will be displayed.
 
 
-
-
-Note: Replace VIDEO_ID with your actual YouTube video ID.
-
-License
-This project is licensed under the MIT License.
-See the LICENSE file for details.
+## License
+This project is licensed under the MIT License.See the LICENSE file for details.
 
 
