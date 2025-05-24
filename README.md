@@ -6,7 +6,7 @@ The app features a simple and responsive user interface, real-time BMI calculati
 
 
 
-## 🖼️ Preview
+## 📱 Preview
 
 Here’s a look at the app interface:
 
@@ -42,6 +42,16 @@ Here’s a look at the app interface:
 - Android SDK: Framework for building Android applications.
 
 - Gradle: Build automation tool for managing dependencies and builds.
+
+ ## Why Use This App?
+- <b>Simple & User-Friendly:</b> Easily enter your height and weight to get instant BMI results with clear health category classifications.
+
+- <b>Native Kotlin Android App:</b> Built with Kotlin for smooth performance and seamless integration on Android devices.
+
+- <b>Accurate Health Insights:</b> Helps you understand your body mass status—whether underweight, normal, overweight, or obese—so you can make informed lifestyle choices.
+
+- <b>Lightweight & Fast:</b> Minimal app size with quick calculations, no unnecessary features—just what you need.
+
 
 ## Installation
 1. Clone the Repository:
