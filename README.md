@@ -12,7 +12,6 @@ Here’s a look at the app interface:
 
 
 
-
 ## 🎥 Live Demo
 
 <a href="https://github.com/suhanaislam52/BMI-Calculator/raw/main/screenshots/Screen_recording_20250524_234635.mp4">
